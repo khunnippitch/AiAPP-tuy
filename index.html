@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI จำแนก หมา หรือ แมว</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.18.0/dist/tf.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🐶🐱 AI จำแนกภาพ หมา หรือ แมว</h1>
+
+        <input type="file" id="imageInput" accept="image/*">
+        <div class="image-preview">
+            <img id="preview" src="" alt="Preview" hidden>
+        </div>
+
+        <button id="predictBtn">วิเคราะห์ภาพ</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
